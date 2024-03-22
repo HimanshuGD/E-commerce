@@ -64,7 +64,7 @@ const Cart = ({ userId, onRouteChange }) => {
     };
 
     // const makePayment = async () => {
-    //     const stripe = await loadStripe("pk_test_51Ows1XSDwETzF1L0duPqKUSbvSE61vHYN5zgDQezg9wNqgFPY8LtF7TuhZtrMTTaTmUidNJREWSofR2D7TgGvkN400kw3oy4em");
+    //     const stripe = await loadStripe("your publishable key");
 
     //     // Format cart items to match server expectations
     //     const formattedCartItems = cartItems.map(item => ({
