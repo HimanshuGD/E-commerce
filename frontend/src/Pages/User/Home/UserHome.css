@@ -1,0 +1,13 @@
+.UserHome {
+    text-align: center;
+}
+.App {
+    justify-content: center;
+    align-items: center;
+
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

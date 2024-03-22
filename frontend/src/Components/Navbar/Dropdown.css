@@ -1,0 +1,35 @@
+.dropdown-menu {
+    background: grey;
+    width: 200px;
+    /* Remove the 'top' property */
+    list-style: none;
+    text-align: start;
+    z-index: 100;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 8px 0;
+    margin: 0;
+    /* Add position relative */
+    position: relative;
+}
+
+/* Remove the position properties for .dropdown-menu */
+@media screen and (max-width: 960px) {
+    .fa-caret-down {
+        display: none;
+    }
+}
+
+/* Remove the position properties for .dropdown-menu */
+@media screen and (max-width: 960px) {
+    .dropdown-menu {
+        position: static;
+    }
+}
+
+/* Remove the position properties for .dropdown-menu */
+@media screen and (min-width: 961px) {
+    .dropdown-menu {
+        position: absolute;
+    }
+}

@@ -1,0 +1,22 @@
+.checkout-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.checkout-form {
+    width: 50%;
+    max-width: 400px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.text-right {
+    text-align: right;
+}
