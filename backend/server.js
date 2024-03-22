@@ -1,7 +1,7 @@
 const express = require('express');
 const bcrypt = require('bcrypt-nodejs');
 const bodyParser = require('body-parser');
-const stripe = require('stripe')('sk_test_51Ows1XSDwETzF1L03tjjTrzcvJyIXKf69ojYEdIefON5lECESq6oKh2x0YuMiGgeEnFTKmylKgpP9E7Uw0dcQ67200Bv0Bw8zX');
+// const stripe = require('stripe')('your secret key');
 const cors = require('cors');
 const knex = require('knex');
 const buyersignin = require('./buyer/signin');
